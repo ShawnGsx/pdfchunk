@@ -210,4 +210,6 @@ def read(pdf_path):
     # 显示页面内容
     result = ''.join(text_per_page['Page_0'][4])
     print(result)
-    
+
+if __name__ == "__main__":
+    read('20160629110029_100129571.pdf')
